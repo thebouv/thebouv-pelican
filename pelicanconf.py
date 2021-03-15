@@ -9,12 +9,8 @@ TIMEZONE = 'America/Chicago'
 DEFAULT_LANG = 'en'
 
 # theme specific items -- begin
-THEME = 'themes/pelican-clean'
-SIDEBAR_DIGEST = 'geek of all trades'
-FAVICON = 'url-to-favicon'
-DISPLAY_PAGES_ON_MENU = True
-TWITTER_USERNAME = 'twitter-user-name'
-MENUITEMS = (('Blog', SITEURL),)
+THEME = 'theme/pelican-clean'
+
 # theme specific items -- end
 
 # Feed generation is usually not desired when developing

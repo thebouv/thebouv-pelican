@@ -68,7 +68,7 @@ Later I will automate commiting and pushing both this repo and the generated con
 
 ### Theme
 
-For now I plan to use the Pelican theme called [pelicana-clean-blog](https://github.com/dangsonbk/pelicana-clean-blog) but fork it to my own version as [pelican-clean](https://github.com/thebouv/pelican-clean):
+For now I plan to use the Pelican theme called [pelican-clean-blog](https://github.com/gilsondev/pelican-clean-blog) but fork it to my own version as [pelican-clean](https://github.com/thebouv/pelican-clean):
 
     git submodule add -f git@github.com:thebouv/pelican-clean.git themes/pelican-clean
 
