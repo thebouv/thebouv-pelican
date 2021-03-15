@@ -3,13 +3,15 @@
 
 AUTHOR = 'Anthony Bouvier'
 SITENAME = 'thebouv : geek of all trades'
-SITEURL = ''
+SITEURL = 'https://thebouv.com'
 
 PATH = 'content'
 
 TIMEZONE = 'America/Chicago'
 
 DEFAULT_LANG = 'en'
+
+THEME = 'themes/pelican-orange'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -25,8 +27,10 @@ LINKS = (('Pelican', 'https://getpelican.com/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('linkedin', 'https://www.linkedin.com/in/thebouv'),
+          ('github', 'https://github.com/thebouv'),
+          ('twitter', 'https://twitter.com/thebouv'),
+          )
 
 DEFAULT_PAGINATION = 10
 
