@@ -2,16 +2,20 @@
 # -*- coding: utf-8 -*- #
 
 AUTHOR = 'Anthony Bouvier'
-SITENAME = 'thebouv : geek of all trades'
-SITEURL = 'https://thebouv.com'
-
+SITENAME = 'thebouv'
+SITEURL = ''
 PATH = 'content'
-
 TIMEZONE = 'America/Chicago'
-
 DEFAULT_LANG = 'en'
 
-THEME = 'themes/pelican-orange'
+# theme specific items -- begin
+THEME = 'themes/pelican-clean'
+SIDEBAR_DIGEST = 'geek of all trades'
+FAVICON = 'url-to-favicon'
+DISPLAY_PAGES_ON_MENU = True
+TWITTER_USERNAME = 'twitter-user-name'
+MENUITEMS = (('Blog', SITEURL),)
+# theme specific items -- end
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -21,10 +25,7 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'https://getpelican.com/'),
-         ('Python.org', 'https://www.python.org/'),
-         ('Jinja2', 'https://palletsprojects.com/p/jinja/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = ()
 
 # Social widget
 SOCIAL = (('linkedin', 'https://www.linkedin.com/in/thebouv'),

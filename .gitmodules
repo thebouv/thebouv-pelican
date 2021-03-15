@@ -4,6 +4,6 @@
 [submodule "themes/themes/pelican-orange"]
 	path = themes/themes/pelican-orange
 	url = git@github.com:thebouv/pelican-orange.git
-[submodule "themes/pelican-orange"]
-	path = themes/pelican-orange
-	url = git@github.com:thebouv/pelican-orange.git
+[submodule "themes/pelican-clean"]
+	path = themes/pelican-clean
+	url = git@github.com:thebouv/pelican-clean.git

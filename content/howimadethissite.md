@@ -1,6 +1,7 @@
 Title: How I made this site
 Date: 2021-03-15
-Summary: First post on site, about making the site, while I'm building the site
+Category: meta
+Summary: First post on site, about making the site, while I'm building the site. So meta.
 Tags: pelican, python
 
 # How I made this site
@@ -67,9 +68,15 @@ Later I will automate commiting and pushing both this repo and the generated con
 
 ### Theme
 
-For now I plan to use the Pelican theme called [pelican-blue](https://github.com/Parbhat/pelican-blue/) but fork it to my own version as [pelican-orange]():
+For now I plan to use the Pelican theme called [pelicana-clean-blog](https://github.com/dangsonbk/pelicana-clean-blog) but fork it to my own version as [pelican-clean](https://github.com/thebouv/pelican-clean):
 
-    git submodule add -f git@github.com:thebouv/pelican-orange.git themes/pelican-orange
+    git submodule add -f git@github.com:thebouv/pelican-clean.git themes/pelican-clean
+
+### Let's fire this baby up!
+
+This article, the one I'm writing and you're reading, is the first post in my blog. So the instructions below are so I can test this out locally and see it for the first time in all its orange glory:
+
+    pelican content
 
 
 
