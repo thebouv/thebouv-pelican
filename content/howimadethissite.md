@@ -1,10 +1,8 @@
-Title: How I made this site
-Date: 2021-03-15
+Title: How I made this site (part one)
+Date: 2021-03-14
 Category: meta
 Summary: First post on site, about making the site, while I'm building the site. So meta.
 Tags: pelican, python
-
-# How I made this site
 
 I chose to use [pelican](https://getpelican.org/) for a few reasons:
 
@@ -71,26 +69,49 @@ thebouv-pelican/
 Now that those exist and I want to start adding content, I want to do one thing real quick. I want to make my output directory actually be a git submodule of *thebouv.github.io.git* since the generated output will be in that repo.
 
 ```
-git submodule add -f https://github.com/thebouv/thebouv.github.io output
+git submodule add -f git@github.com:thebouv/thebouv.github.io.git output
 ```
 
-Later I will automate commiting and pushing both this repo and the generated content up to GitHub with *invoke*.
+Later I will automate committing and pushing both this repo and the generated content up to GitHub with *invoke*.
 
 ### Theme
 
-For now I plan to use the Pelican theme called [pelican-clean-blog](https://github.com/gilsondev/pelican-clean-blog) but fork it to my own version as [pelican-clean](https://github.com/thebouv/pelican-clean):
+For now I plan to use a theme that is inside this repo called [brutalistpelican](https://github.com/mc-buckets/brutalistpelican) but host just a fork of the theme for my own version. I'm doing this because I don't need the rest of his pelican set up (I have my own which this post is about) and only the theme itself. After I clone their repo I move the theme folder out and set it all up as its own [repo](https://github.com/thebouv/brutalist-theme).  Then I can add the submodule like I wanted to do:
 
 ```
-git submodule add -f git@github.com:thebouv/pelican-clean.git themes/pelican-clean
+git submodule add -f git@github.com:thebouv/brutalist-theme.git theme/brutalist-theme
+```
+
+I've definitely made some changes to the theme that I'm not going to go into detail on. One of the main things I've done is get rid of any external javascript except Google Analytics. I also tweak page width to 60em max (non-brutalist but I wanted a slightly wider content area). I'll be making more changes over time and if they're significant, I'll write about them but likely most will be slight tweaks.
+
+Any changes I make to the theme will need to be pushed up as well to its own repo but I can do it *from* the submodule itself which is handy and something I will be automating with **invoke** in part two of this post.
+
+```
+cd theme/brutal-theme
+git add --all
+git commit -m "some message about the changes I made"
+git push
 ```
 
 ### Let's fire this baby up!
 
-This article, the one I'm writing and you're reading, is the first post in my blog. So the instructions below are so I can test this out locally and see it for the first time in all its orange glory:
+This article, the one I'm writing and you're reading, is the first post in my blog. So the instructions below are so I can test this out locally and see it for the first time in all its simple glory:
 
 ```
 pelican content
 ```
 
+This statically generates all the content and uses the theme to style it. Then it puts all those static files in output which you'll recall is a submodule. Then I can go into that folder add all the output to git and push it up. And since it is set up to be hosted by GitHub once this output is pushed up, my site will appear here at https://thebouv.com
+
+```
+cd output
+git add --all
+git commit -m "auto-generated output from pelican"
+git push
+```
+
+### Next time
+
+Okay, realize this is getting long and I have more to do but I've detailed everything that has gotten the site to this point.  Well, besides the fact that I switched themes like 5 times but I didn't need to document that part. ;)
 
 
