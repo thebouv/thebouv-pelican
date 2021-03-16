@@ -46,12 +46,19 @@ AUTHOR_FEED_RSS = None
 LINKS = ()
 
 # Social widget
-SOCIAL = (('linkedin', 'https://www.linkedin.com/in/thebouv'),
-          ('github', 'https://github.com/thebouv'),
-          ('twitter', 'https://twitter.com/thebouv'),
-          )
+SOCIAL = ()
 
 DEFAULT_PAGINATION = 10
+
+# MARKDOWN = ['fenced_code', 'codehilite(css_class=highlight, guess_lang=False)']
+
+MARKDOWN = {
+    'extension_configs': {
+        'markdown.extensions.codehilite': {'css_class': 'highlight', 'guess_lang': False},
+        'markdown.extensions.fenced_code': {},
+    },
+    'output_format': 'html5',
+}
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
