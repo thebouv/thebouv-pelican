@@ -105,13 +105,13 @@ def publish(c):
 
     # Commit the written content to GitHub from this repo
     c.run('git add .')
-    c.run('git commit -m "auto-commit from Invoke"')
+    c.run('git commit -m "auto-commit output from Invoke"')
     c.run('git push origin master')
 
     # Commit the static html pages to thebouv.github.io repo
-    os.chdir(CONFIG['deploy_path']) # my output folder
+    os.chdir('..') # my output folder
     c.run('git add .')
-    c.run('git commit -m "auto-commit from Invoke"')
+    c.run('git commit -m "auto-commit content from Invoke"')
     c.run('git push origin master')
 
 
