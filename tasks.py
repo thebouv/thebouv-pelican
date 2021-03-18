@@ -105,9 +105,9 @@ def publish_output(c):
     # Commit the written content to GitHub from this repo
     os.chdir(CONFIG['deploy_path'])
     print(f'In Directory: {os.getcwd()}')
-    # c.run('git add .')
-    # c.run('git commit -m "auto-commit output from Invoke"')
-    # c.run('git push origin master')
+    c.run('git add .')
+    c.run('git commit -m "auto-commit OUTPUT from Invoke"')
+    c.run('git push origin master')
 
 @task(publish_output)
 def publish(c):
@@ -115,7 +115,7 @@ def publish(c):
     os.chdir('..') # my output folder
     print(f'In Directory: {os.getcwd()}')
     c.run('git add .')
-    c.run('git commit -m "auto-commit content from Invoke"')
+    c.run('git commit -m "auto-commit CONTENT from Invoke"')
     c.run('git push origin master')
 
 
