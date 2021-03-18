@@ -1,5 +1,5 @@
 Title: How I made this site (part two)
-Date: 2021-03-16
+Date: 2021-03-15
 Category: meta
 Summary: Now to finish off the tutorial on how I made this site including previewing the content and automating some tasks with invoke.
 Tags: pelican, python, invoke
