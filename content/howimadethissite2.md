@@ -4,7 +4,7 @@ Category: meta
 Summary: Now to finish off the tutorial on how I made this site including previewing the content and automating some tasks with invoke.
 Tags: pelican, python, invoke
 
-Last I left off in [part one](howimadethissite.md) I generated the content with `invoke build`. I want to go over the remaining steps on how to preview the content, how I'm publishing it to GitHub pages with the submodule created previously, and also how I plan to use **invoke** to automate some of this.
+Last I left off in [part one](how-i-made-this-site-part-one.html) I generated the content with `invoke build`. I want to go over the remaining steps on how to preview the content, how I'm publishing it to GitHub pages with the submodule created previously, and also how I plan to use **invoke** to automate some of this.
 
 ## Markdown Tweaks
 
