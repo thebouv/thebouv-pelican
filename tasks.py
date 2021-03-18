@@ -98,9 +98,8 @@ def livereload(c):
     # Serve output path on configured host and port
     server.serve(host=CONFIG['host'], port=CONFIG['port'], root=CONFIG['deploy_path'])
 
-
 @task
-def publish(c):
+def publish_output(c):
     pelican_run('-s {settings_publish}'.format(**CONFIG))
 
     # Commit the written content to GitHub from this repo
@@ -110,6 +109,8 @@ def publish(c):
     # c.run('git commit -m "auto-commit output from Invoke"')
     # c.run('git push origin master')
 
+@task(publish_output)
+def publish(c):
     # Commit the static html pages to thebouv.github.io repo
     os.chdir('..') # my output folder
     print(f'In Directory: {os.getcwd()}')
