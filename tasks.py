@@ -104,12 +104,15 @@ def publish(c):
     pelican_run('-s {settings_publish}'.format(**CONFIG))
 
     # Commit the written content to GitHub from this repo
-    c.run('git add .')
-    c.run('git commit -m "auto-commit output from Invoke"')
-    c.run('git push origin master')
+    os.chdir(CONFIG['deploy_path'])
+    print(f'In Directory: {os.getcwd()}')
+    # c.run('git add .')
+    # c.run('git commit -m "auto-commit output from Invoke"')
+    # c.run('git push origin master')
 
     # Commit the static html pages to thebouv.github.io repo
     os.chdir('..') # my output folder
+    print(f'In Directory: {os.getcwd()}')
     c.run('git add .')
     c.run('git commit -m "auto-commit content from Invoke"')
     c.run('git push origin master')
