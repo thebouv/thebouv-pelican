@@ -59,6 +59,7 @@ def publish(c):
 
     # Commit the written content to GitHub from this repo
     c.run('git add .')
+    c.run('git add output')
     c.run('git commit -m "auto-commit from Invoke"')
     c.run('git push origin master')
 ```
