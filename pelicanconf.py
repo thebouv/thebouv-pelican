@@ -10,17 +10,10 @@ DEFAULT_LANG = 'en'
 
 # theme specific items -- begin
 THEME = 'theme/brutalist-theme'
-SITESUBTITLE = 'Geek of All Trades. Maker and Breaker. Tinkerer and Thinker-er.'
-SITEIMAGE = 'site-cover.jpg'
-DISPLAY_CATEGORIES_ON_MENU = False
 SITEDESCRIPTION = 'Geek of All Trades. Maker and Breaker. Tinkerer and Thinker-er.'
 FAVICON = 'thebouv.jpg'
 LOGO = 'thebouv.jpg'
-FIRST_NAME = 'Anthony'
-## google analytics (fake code commented out)
-GOOGLE_ANALYTICS = 'UA-55712845-1'
-## Twitter username for Twitter Card data
-TWITTER_USERNAME = '@thebouv'
+
 ## Toggle display of theme attribution in the footer (scroll down and see)
 ## Attribution is appreciated but totally fine to turn off!
 ATTRIBUTION = False
@@ -49,6 +42,7 @@ LINKS = ()
 SOCIAL = ()
 
 DEFAULT_PAGINATION = 10
+DELETE_OUTPUT_DIRECTORY = False
 
 # MARKDOWN = ['fenced_code', 'codehilite(css_class=highlight, guess_lang=False)']
 

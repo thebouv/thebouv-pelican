@@ -13,10 +13,8 @@ from pelicanconf import *
 SITEURL = 'https://thebouv.com'
 RELATIVE_URLS = False
 
-FEED_ALL_ATOM = 'feeds/all.atom.xml'
-CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
-
-DELETE_OUTPUT_DIRECTORY = True
+## google analytics
+GOOGLE_ANALYTICS = 'UA-55712845-1'
 
 # Following items are often useful when publishing
 
