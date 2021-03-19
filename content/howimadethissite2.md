@@ -71,3 +71,15 @@ def publish(c):
 ```
 
 I only need to run `invoke publish` and the *output* directory is refreshed with my new generated site with prod settings from *publishconf.py*. Then the **thebouv.github.io** repo gets an auto-commit and push. Followed by **thebouv-pelican** receiving an auto-commit as well (since the submodule has updated, this step commits updating the submodule to point to the new commit SHA of **thebouv.github.io**).
+
+## But wait, there's more
+
+I noticed in the default *task.py* file that there is a livereload option. I had to try it out by installing the **livereload** module and then invoking the task.
+
+```
+pip install livereload
+pip freeze > requirements.txt
+invoke livereload
+```
+
+Now the browser nicely rereshes for me automatically as I edit and save. That's pretty damn handy.
