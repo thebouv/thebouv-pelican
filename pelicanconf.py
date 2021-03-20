@@ -13,6 +13,7 @@ THEME = 'theme/brutalist-theme'
 SITEDESCRIPTION = 'Geek of All Trades. Maker and Breaker. Tinkerer and Thinker-er.'
 FAVICON = 'thebouv.jpg'
 LOGO = 'thebouv.jpg'
+DISPLAY_CATEGORIES_ON_MENU = False
 
 ## Toggle display of theme attribution in the footer (scroll down and see)
 ## Attribution is appreciated but totally fine to turn off!
