@@ -8,7 +8,7 @@ Last I left off in [part one](how-i-made-this-site-part-one.html) I generated th
 
 ## Markdown Tweaks
 
-First before we get to previewing the content, I had to make some adjustments to how the Markdown is processed, especially for code blocks. By default pygments, which pelican uses for code highlighting, didn't mesh well with my theme. So I made sure to make my pre/code blocks have a dark background for one. I also wanted it to stop guessing the language (it was giving weird results trying to guess at the command line code blocks since they're not really a 'language' per se), and for it to recognize GitHub style fenced blocks (using backticks to surrond code blocks instead of relying on indentation).
+First before previewing the content, I had to make some adjustments to how the Markdown is processed, especially for code blocks. By default pygments, which pelican uses for code highlighting, didn't mesh well with my theme. I made sure to make my pre/code blocks have a dark background for one. I also wanted it to stop guessing the language (it was giving weird results trying to guess at the command line code blocks since they're not really a 'language' per se), and for it to recognize GitHub style fenced blocks (using backticks to surround code blocks instead of relying on indentation).
 
 I added this to my *pelicanconf.py* file:
 
@@ -82,4 +82,4 @@ pip freeze > requirements.txt
 invoke livereload
 ```
 
-Now the browser nicely rereshes for me automatically as I edit and save. That's pretty damn handy.
+Now the browser nicely refreshes for me automatically as I edit and save. That's pretty damn handy.
