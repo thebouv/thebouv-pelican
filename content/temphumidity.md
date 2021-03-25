@@ -11,9 +11,9 @@ I have a home from 1914 which has a lot of charm and a lot of issues. One of whi
 ### Hardware
 
 4x Raspberry Pi Zero WH (just like the W, but with pre-soldered headers on the GPIO)  
-4x Raspberry Pi official zero w cases
-4x Raspberry Pi official power supplies
-4x Gigastone 16gb MicroSDHC
+4x Raspberry Pi official zero w cases  
+4x Raspberry Pi official power supplies  
+4x Gigastone 16gb MicroSDHC  
 
 ### Operating System
 
