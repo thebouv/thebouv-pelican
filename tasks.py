@@ -116,7 +116,7 @@ def publish(c):
     print(f'In Directory: {os.getcwd()}')
     c.run('git add .')
     c.run('git commit -m "auto-commit CONTENT from Invoke"')
-    c.run('git push origin master')
+    c.run('git push origin main')
 
 
 def pelican_run(cmd):
