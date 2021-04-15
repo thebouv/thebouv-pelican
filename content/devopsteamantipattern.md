@@ -2,7 +2,7 @@ Title: DevOps teams are an anti-pattern, but ...
 Date: 2021-04-15
 Category: meta
 Summary: My response to someone about how they feel like they're doing DevOps wrong at their company. And asking why is a DevOps team frowned upon.
-Tags: pelican, python
+Tags: devops
 
 People put too much pressure on themselves to do DevOps the "right" way or that they're not doing it like they read about at Netflix or Amazon or any other examples. At small to medium sized companies introducing these new concepts, someone(s) need to own getting it started and to be the evangelists.
 
