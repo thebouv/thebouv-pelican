@@ -1,6 +1,6 @@
 [submodule "output"]
 	path = output
 	url = git@github.com:thebouv/thebouv.github.io.git 
-[submodule "theme/brutalist-theme"]
-	path = theme/brutalist-theme
-	url = git@github.com:thebouv/brutalist-theme.git
+[submodule "theme/pelican-paper"]
+	path = theme/pelican-paper
+	url = git@github.com:thebouv/pelican-paper.git
