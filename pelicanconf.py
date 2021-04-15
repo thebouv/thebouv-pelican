@@ -15,6 +15,7 @@ FAVICON = 'thebouv.jpg'
 LOGO = 'thebouv.jpg'
 TWITTER = 'https://twitter.com/thebouv'
 GITHUB = 'https://github.com/thebouv'
+GOOGLE_ANALYTICS = 'UA-55712845-1'
 # theme specific items -- end
 
 # Feed generation is usually not desired when developing
