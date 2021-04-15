@@ -9,7 +9,7 @@ TIMEZONE = 'America/Chicago'
 DEFAULT_LANG = 'en'
 
 # theme specific items -- begin
-THEME = '/Users/thebouv/Documents/development/pelican-paper'
+THEME = 'theme/pelican-paper'
 SITEDESCRIPTION = 'Geek of All Trades. Maker and Breaker. Tinkerer and Thinker-er.'
 FAVICON = 'thebouv.jpg'
 LOGO = 'thebouv.jpg'
