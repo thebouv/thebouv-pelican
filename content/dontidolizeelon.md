@@ -4,6 +4,10 @@ Category: career
 Summary: I responded to someone on LinkedIn shaming people for using "I don't have time" as an excuse and praising Elon Musk's overworking habits. Wanted to capture my response here as well.
 Tags: career
 
+I responded to someone on LinkedIn shaming people for using "I don't have time" as an excuse and praising Elon Musk's overworking habits. Wanted to capture my response here as well.
+
+---
+
 Let's not try to normalize working 85-100 hours a week. That's ridiculous. And shame on you for holding that up as something to aspire too. 
 
 Before spouting some glorification of overworking why don't you do a little math?
