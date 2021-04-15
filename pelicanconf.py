@@ -13,7 +13,6 @@ THEME = '/Users/thebouv/Documents/development/pelican-paper'
 SITEDESCRIPTION = 'Geek of All Trades. Maker and Breaker. Tinkerer and Thinker-er.'
 FAVICON = 'thebouv.jpg'
 LOGO = 'thebouv.jpg'
-DISPLAY_CATEGORIES_ON_MENU = False
 TWITTER = 'https://twitter.com/thebouv'
 GITHUB = 'https://github.com/thebouv'
 # theme specific items -- end
