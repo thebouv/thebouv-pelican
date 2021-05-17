@@ -1,10 +1,10 @@
-Title: My thoughts on Amazon Sidewlak
+Title: My thoughts on Amazon Sidewalk
 Date: 2021-05-15
 Category: homelab
-Summary: My thoughts on Amazon Sidewalk and why I'm ditching Alexa hardware
+Summary: My brief thoughts on Amazon Sidewalk and why I'm ditching Alexa hardware
 Tags: homelab, iot
 
-I originally posted these thoughts on [my LinkedIn profile](https://www.linkedin.com/in/thebouv) but wanted to revisit here as well.  
+I originally posted these thoughts on [my LinkedIn profile](https://www.linkedin.com/in/thebouv) but wanted to revisit here as well. It is not an in-depth technical analysis. Just a bit of a rant and declaration. A future post with more geeky thoughts is in order for sure. 
 
 First the announcement release about [Amazon Sidewalk](https://www.amazon.com/Amazon-Sidewalk/b?node=21328123011).  
 
