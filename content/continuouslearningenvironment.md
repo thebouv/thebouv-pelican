@@ -96,6 +96,14 @@ And of course, have a knowledge sharing system in place. Hopefully you already h
 
 What's important is that over time you grow out a huge list of topics of interest that can be revisted by anyone at anytime for learning or inspiration.
 
+### Let them apply the new knowledge
+
+Nothing's worse than learning a new thing or receiving a new certification and then ... nothing happens with it.
+
+This can't always be avoided obviously, but attempts should be made for those employees to put their new learning into action. Put them on a side-project they can do between sprints. Lend them to another team -- if your backend dev is growing their frontend skills, let them tackle some tickets from the other teams.
+
+Don't let their hard work atrophy.
+
 ### Have one on ones with people not on your team
 
 Meet regularly with various members of the teams you serve. And not just the managers or directors, but the individuals that are new to the company too. Ask them how they've seen these programs run before and make sure to set up that you have an open door for new ideas.
