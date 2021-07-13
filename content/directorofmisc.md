@@ -6,7 +6,7 @@ Tags: career
 
 People wonder what I mean by Director of Miscellaneous that I joke is my title.
 
-Well this week I:
+Well this week I:  
 * Set up a new Linux vm to help one engineering team to handle secure file transfer for a trial run with a client  
 * Got XCode set up to ad-hoc distribute a test app (I am not a mobile developer or their lead, but stepping in as lead in interim)  
 * Set up our enterprise nuget registry with example repo & docs on how to repeat (I am not a .NET engineer at all)  
