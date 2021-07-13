@@ -2,7 +2,7 @@ Title: Chasing Features
 Date: 2021-06-15
 Category: career
 Summary: Inspired by a tweet from another person, I wanted to talk about chasing features that are shiny, and ignoring things that aren't "features" (even though they are).
-Tags: career
+Tags: career, devops, development
 
 Don’t just chase “features”. As many have said, and it’s highlighted below in Dan Mayer's tweet, lots of things are “features”. Far too often there are members of your organization that only concentrate on visible, consumer-facing features. And those are definitely nice and "ooh-ahh"-inspiring. And those features win accolades and obvious praise from users and even co-workers.
 
