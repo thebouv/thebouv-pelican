@@ -5,5 +5,5 @@ I'm a teacher at heart and that means after 20ish years of doing a variety of IT
 You can find me here:
 
 Twitter: <a target="_blank" href="https://twitter.com/thebouv/">@thebouv</a>  
-LinkedIn: <a target="_blank" href="https://www.linkedin.com/in/thebouv/">thebouv</a>
+LinkedIn: <a target="_blank" href="https://www.linkedin.com/in/thebouv/">thebouv</a>  
 GitHub: <a target="_blank" href="https://github.com/thebouv">thebouv</a>
