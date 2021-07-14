@@ -36,7 +36,7 @@ Seek out the best materials by talking to colleagues inside and outside of your 
 
 Curating the content means *continuously* curating it. Don't let it get stale or out of date. If you recommend a particular course about a subject make sure to see if new versions come out. If they keep pace with the changes to the language, framework, or platform the course is about.
 
-And don't be afraid to reach out to vendors to let them know if their content is stale. Keep them on their toes and be the squeaky wheel. I'm sure they're already working on updating content if they're reputable, but it doesn't hurt to keep in content with them. Especially if you're paying for a learning service.
+And don't be afraid to reach out to vendors to let them know if their content is stale. Keep them on their toes and be the squeaky wheel. I'm sure they're already working on updating content if they're reputable, but it doesn't hurt to keep in contact with them. Especially if you're paying for a learning service.
 
 ### Choose a great vendor
 
@@ -50,7 +50,7 @@ Even better if they have an API you can talk to because you should ...
 
 Be ready to develop your own single pane of glass where you can show off all the progress being made on learning paths, certifications, and labs.
 
-It is great that [PluralSight](https://www.pluralsight.com/) has a dashboard to track those things for their content. But keep in mind you should have MORE than a single way to learn things. You may be tracking certification progress in Azure's or AWS's own interface. Learning paths from PluralSigh. Book checkouts / book purchases. Proof-of-concept or experiments used to learn new frameworks.
+It is great that [PluralSight](https://www.pluralsight.com/) has a dashboard to track those things for their content. But keep in mind you should have MORE than a single way to learn things. You may be tracking certification progress in Azure's or AWS's own interface. Learning paths from PluralSight. Book checkouts / book purchases. Proof-of-concept or experiments used to learn new frameworks.
 
 Document all that progress and have it accessible to everyone in the company so they can see the engineers are knocking it out of the park.
 
@@ -80,7 +80,7 @@ However, not everyone is great at taking those kinds of tests and there should b
 
 ### Learn, Share, Misc
 
-At everyone company I've been at since 1999 I've set up bi-weekly meetings titled "Learn, Share, Misc".
+At every company I've been at since 1999 I've set up bi-weekly meetings titled "Learn, Share, Misc".
 
 The format is simple. Everyone looks out for awesome articles, great videos, how-tos, tweets, anything that they think is worth bringing up and they send it to you with a few words to synopsis why they want to share this with the group.
 
@@ -114,7 +114,7 @@ Help them navigate that discussion with their employee. Find out what is roadblo
 
 ### Make it a feature
 
-Continuous learning [is a feature too](chasingfeatures.md). Make sure everyone is making time for it from the c-level down.
+Continuous learning [is a feature too]({filename}/chasingfeatures.md). Make sure everyone is making time for it from the c-level down.
 
 There's no point in setting up a continuous learning plan for your company if they never make time for employees to learn *on company time*. If employees choose to learn on their own time, that's awesome -- hang on to those folks tightly.
 
