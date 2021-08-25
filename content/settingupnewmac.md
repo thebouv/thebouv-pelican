@@ -14,7 +14,7 @@ I personally use a 15" MacBook Pro (what I'm writing this article on) and love i
 
 I'm a fan of deleting stuff. I feel like too many people keep too many things on their machines. The very first thing I do when I set up a machine is to delete software. For this machine, I immediately clear the 20+ icons in the Dock. My personal machine only has Finder, Firefox, iTerm2, and VSCode as the permanent apps -- then the Downloads folder and Trash after the divider. I don't understand having more than that as these are the apps I use the most often. Anything else is **&#x2318; + Spacebar** away with Spotlight Search.
 
-<img src="/images/dock.png">
+<img src="/images/dock.png" alt="an image of my sparse dock, with only a few permanent icons">
 
 ### Apps
 
@@ -92,7 +92,7 @@ My last work laptop had a light purple look to it with a matte finish, but I fou
 
 So my new case is bright orange, gloss, and comes with a silicone keyboard cover. It's nice that this is a bundle cause I always buy keyboard covers for MacBook Pros as well. Their keyboards have been known on some models to be very sensitive to dust (looking at you butterfly keyboard on my personal laptop).
 
-<img src="/images/maccase.png">
+<img src="/images/maccase.png" alt="product image for the orange case I bought for my mac">
 
 And of course I need to buy stickers next. Usually I can pull from my stacks and stacks of left overs. But most of those are programming related and my career has shifted over time to more [Infrastructure as Code](https://en.wikipedia.org/wiki/Infrastructure_as_code) and other [DevOps tooling](https://en.wikipedia.org/wiki/DevOps) related.
 
