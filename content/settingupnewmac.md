@@ -36,7 +36,7 @@ Brew gets installed immediately. It is just too handy of a package manager not t
 
 ### iTerm2
 
-The default Termina.app in Mac OS X is okay, but iTerm2 just overall feels better. Snappier, tabbed, and [a ton of other features](https://iterm2.com/features.html) it is my go to. 
+The default Termina.app in Mac OS X is okay, but iTerm2 just overall feels better. Snappier, tabbed, and [a ton of other features](https://iterm2.com/features.html) makes it is my go to. 
 
 ```sh
 brew install --cask iterm2
