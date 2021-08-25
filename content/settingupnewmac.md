@@ -82,6 +82,18 @@ And of course, I have to get VS Code as soon as possible. Thankfully even VS Cod
 brew install --cask visual-studio-code
 ```
 
+### Rectangle
+
+Previously I used to always install Spectacle as a window management tool for OS X but it is no longer actively developed. Rectangle is the replacement and of course it is on Brew too.
+
+I really can't function without this app. My muscle memory for moving windows around is strongly keyboard based and when setting up Rectangle it forgivingly allowed me to use Spectacle shortcut combos without needing to learn new ones for Rectangle.
+
+I actually need to switch this personal laptop over to it as well.
+
+```sh
+brew install --cask rectangle
+```
+
 ## Physical stuff
 
 Because I am known to be a fan of stickers for my laptops I immediately have to buy some things.
