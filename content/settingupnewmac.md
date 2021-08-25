@@ -28,6 +28,14 @@ If I could delete more apps I would, but for some reason Chess, Mail, Messages, 
 
 I know how awesome zsh is. And Apple thinks so too because now it is the default shell for OS X. However, I've used bash for 20 years and don't really feel like changing. That's pretty much it -- none of the features of zsh impress me enough to change, so I make sure to `chshell` and also add in an env to stop Apple's insistence that I use zsh when I open a terminal (added to my dotfiles of course which you will see below).
 
+### Some trackpad stuff
+
+I hate Apple's "natural scrolling" bullshit. Not even going to hide it. And most of the gestures I end up accidentally triggering all the damn time so I turn off a lot of those too.
+
+For Point and Click settings I turn off "Look up & data detectors" and "Tap to click". I set the secondary click to be bottom right corner. 
+
+For the Gestures setting, I only leave on "Swipe between pages" and "Swipe between full-screen apps". I detest the rest of them.
+
 ## Now to add things!
 
 ### Brew
