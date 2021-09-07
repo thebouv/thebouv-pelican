@@ -1,8 +1,8 @@
 Title: Developing a Continuous Learning Environment
 Date: 2021-06-28
-Category: devops
+Category: learning
 Summary: What I feel are key pieces of setting up a continuous learning environment in your company. Some obvious, some not.
-Tags: career, devops
+Tags: career, devops, learning
 
 In developing my own plans for continuous learning at various employers, I've decided to share some of my insights for creating your own culture of learning. Not just the training materials you need, but how to follow through and make sure it becomes a key part of your team's personal development success.
 
