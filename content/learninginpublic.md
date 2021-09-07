@@ -1,8 +1,8 @@
 Title: Learning in public
 Date: 2021-09-06
 Category: learning
-Summary: 
-Tags: learning
+Summary: Recently inspired by an essay to learn in public, I go over a few of the ways I plan to do that.
+Tags: learning, career
 
 Since I start my new job in about a week, I've been brushing up and dusting off some of my more infrastructure-as-code (IaC) knowledge. I've also been thinking alot about learning and how best to practice it for myself. My new gig is focused on helping my employer mentor new hires, provide continuous learning opportunities for all employees, manage certification and knowledge paths, and more. And I figure a good habit I'd like to practice, and preach at work, is that of Learning In Public.
 
