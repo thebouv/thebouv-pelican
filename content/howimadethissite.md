@@ -4,7 +4,7 @@ Category: meta
 Summary: First post on site, about making the site, while I'm building the site. So meta.
 Tags: pelican, python
 
-I chose to use [pelican](https://getpelican.org/) for a few reasons:
+I chose to use [pelican](https://getpelican.com/) for a few reasons:
 
 * This site is hosted for free on GitHub and that means it needs to be statically generated. 
 * Pelican is written in python and I'm a python fanboy.
