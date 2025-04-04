@@ -1,12 +1,10 @@
 Title: Setting up my new Mac  
 Date: 2021-08-23  
 Category: career  
-Summary: Starting a new job soon and have my brand new 13" MacBook Pro sent to me. Decided to document how I'm setting it up before the gig starts.  
+Summary: When I set up a new Mac for dev work, I wanted to document some of the steps I do.
 Tags: career, development, hardware
 
-I'm starting a new job soon after 7 years at my previous company. As I was installing a few things I decided I should document what I normally do. This isn't a deeply technical article, and is really just a bunch of my opinions, but I think it'll be interesting to some.
-
-I personally use a 15" MacBook Pro (what I'm writing this article on) and love it; though I do feel like the TouchBar is still one of the dumbest features ever added to the lineup. At least the new 13" version I have, still Intel not M1, is that it has a physical escape key. Thank gods for that -- the virtual one on my personal machine agitates me to this day.
+I was setting up a new Macbook laptop recently and as I was installing a few things I decided I should document what I normally do. This isn't a deeply technical article, and is really just a bunch of my opinions, but I think it'll be interesting to some.
 
 ## Let's delete a lot of stuff
 
